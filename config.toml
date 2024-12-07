@@ -1,0 +1,20 @@
+power = 8e6  # W / m²
+dp_max = 5e4  # Pa
+t_in = 293.15  # K
+nu = 4.36  # in laminar conditions
+min_wc = 1e-5  # hp
+
+[silicon]
+k = 150  # W / (m K)
+
+[water]
+k = 0.6  # W / (m K)
+mu = 1e-3  # Pa S
+cp = 4186  # J / kg / K
+rho = 1e3  # kg / m³
+
+[dimensions]
+w_chip = 0.01  # m
+l_chip = 0.01  # m
+h_fins = 4e-4  # m
+t = 1e-4  # m

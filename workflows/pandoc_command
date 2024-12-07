@@ -1,0 +1,1 @@
+pandoc main.md -o AnalysisOfAnHeatsinkInMicrofluidicApplications.pdf --toc --fail-if-warnings=true --table-caption-position=below --filter pandoc-include-code
